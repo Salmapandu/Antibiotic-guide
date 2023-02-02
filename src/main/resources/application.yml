@@ -1,0 +1,17 @@
+server:
+  port: 8020
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/antibiotic_usage_guidelines
+    password: never123%
+    username: hassan
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+
